@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+.pytest_cache/
+.venv/
+*.pyc
+
+# Runtime secrets / local state
+xiaomi_cookies.json
+miui_daily_result.json
+notify_human_needed_state.json
+miui_verify_pending.json
+*.cookies.json
+*.token.json
+*.secret*
+*.env
+.env
+
+# Browser/runtime artifacts
+browser-profile/
+profile/
+logs/
+screenshots/
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.html
+
+# Local temp/debug
+_*.py
+_*.sh
+tmp_*.py
